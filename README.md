@@ -1,7 +1,6 @@
-# DevOps Training Labs
+# DevOps Python Block Labs
 
-- [x] Python Lab 1: Basic Scripting
-- [x] Ansible Lab 1: Basic Playbook
-- [x] Kubernetes Lab 1: Minikube Deployment
-- [x] Helm Lab 1: Helm Basics
-- [x] Cloud Cost Control
+- [x] Lab 1: Basic Scripting
+- [x] Lab 2: API Requests
+- [x] Lab 3: Dockerize Script
+- [x] Lab 4: Cloud Automation

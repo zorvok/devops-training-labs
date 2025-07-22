@@ -1,4 +1,7 @@
 #!/bin/bash
 set -e
-echo 'Installing Docker, kubectl, Minikube, Ansible, Helm, Python...'
-# Simulated install steps
+sudo apt update
+sudo apt install -y python3 python3-pip docker.io
+pip3 install --user requests boto3
+sudo usermod -aG docker $USER
+echo '✅ Setup complete. Please log out and back in if Docker was just installed.'
